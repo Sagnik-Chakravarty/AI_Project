@@ -1,0 +1,45 @@
+{
+  "total_texts": 16,
+  "texts_with_metaphors": 10,
+  "average_metaphor_density": 0.08681318681318681,
+  "metaphor_category_counts": {
+    "human_like": {
+      "total_occurrences": 2,
+      "texts_with_category": 2,
+      "average_per_text": 0.125
+    },
+    "tool_instrument": {
+      "total_occurrences": 2,
+      "texts_with_category": 2,
+      "average_per_text": 0.125
+    },
+    "master_slave": {
+      "total_occurrences": 3,
+      "texts_with_category": 1,
+      "average_per_text": 0.1875
+    },
+    "partnership": {
+      "total_occurrences": 3,
+      "texts_with_category": 3,
+      "average_per_text": 0.1875
+    },
+    "biological": {
+      "total_occurrences": 3,
+      "texts_with_category": 3,
+      "average_per_text": 0.1875
+    },
+    "threat_war": {
+      "total_occurrences": 4,
+      "texts_with_category": 1,
+      "average_per_text": 0.25
+    },
+    "magic_supernatural": {
+      "total_occurrences": 1,
+      "texts_with_category": 1,
+      "average_per_text": 0.0625
+    }
+  },
+  "most_common_categories": [
+    [
+      "threat_war",
+      

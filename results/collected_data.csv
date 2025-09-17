@@ -1,0 +1,17 @@
+platform,keyword,text,timestamp,author,engagement,source,title,url,response_id,demographics
+twitter,AI,Sample tweet about AI and AI technology,2025-09-17 03:49:17.426748,sample_user,"{'likes': 10, 'retweets': 5, 'replies': 2}",social_media,,,,
+twitter,artificial intelligence,Sample tweet about artificial intelligence and AI technology,2025-09-17 03:49:17.426752,sample_user,"{'likes': 10, 'retweets': 5, 'replies': 2}",social_media,,,,
+reddit,AI,Reddit post discussing AI and artificial intelligence,2025-09-17 03:49:17.426761,reddit_user,"{'upvotes': 25, 'comments': 8}",social_media,,,,
+reddit,artificial intelligence,Reddit post discussing artificial intelligence and artificial intelligence,2025-09-17 03:49:17.426763,reddit_user,"{'upvotes': 25, 'comments': 8}",social_media,,,,
+,AI,This is a news article discussing the implications of AI in artificial intelligence...,2025-09-17 03:49:17.428032,,,news,News article about AI in AI,https://example.com/article-AI,,
+,artificial intelligence,This is a news article discussing the implications of artificial intelligence in artificial intelligence...,2025-09-17 03:49:17.428035,,,news,News article about artificial intelligence in AI,https://example.com/article-artificial intelligence,,
+,,AI is amazing technology that will revolutionize healthcare and help doctors save more lives,2024-01-15 10:30:00,,,survey,,,1.0,age:25-34;education:graduate
+,,I'm really worried about AI taking away jobs from hardworking people like my family,2024-01-15 11:45:00,,,survey,,,2.0,age:45-54;education:high_school
+,,Machine learning algorithms are powerful tools for analyzing complex patterns in data,2024-01-15 14:20:00,,,survey,,,3.0,age:35-44;education:graduate
+,,The AI overlords will eventually control humanity unless we create proper regulations now,2024-01-15 16:10:00,,,survey,,,4.0,age:25-34;education:college
+,,Humans and AI should work together as partners to solve climate change and global problems,2024-01-15 18:30:00,,,survey,,,5.0,age:18-24;education:college
+,,AI systems are evolving rapidly in this digital ecosystem of technological innovation,2024-01-16 09:15:00,,,survey,,,6.0,age:35-44;education:graduate
+,,We must defend against the AI invasion that threatens traditional industries and values,2024-01-16 12:40:00,,,survey,,,7.0,age:55-64;education:high_school
+,,Artificial intelligence is like a brilliant brain that processes information faster than humans,2024-01-16 15:20:00,,,survey,,,8.0,age:25-34;education:college
+,,AI tools help doctors diagnose diseases more accurately and provide better patient care,2024-01-16 17:50:00,,,survey,,,9.0,age:45-54;education:graduate
+,,The mysterious black box of AI decision-making raises serious concerns about transparency,2024-01-17 10:10:00,,,survey,,,10.0,age:35-44;education:graduate

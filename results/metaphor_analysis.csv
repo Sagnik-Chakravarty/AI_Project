@@ -1,0 +1,17 @@
+text_id,text,analysis_timestamp,human_like_count,human_like_matches,tool_instrument_count,tool_instrument_matches,master_slave_count,master_slave_matches,partnership_count,partnership_matches,biological_count,biological_matches,threat_war_count,threat_war_matches,magic_supernatural_count,magic_supernatural_matches,total_metaphors,metaphor_density,biological_sentiment,partnership_sentiment,human_like_sentiment,tool_instrument_sentiment,master_slave_sentiment,threat_war_sentiment,magic_supernatural_sentiment
+0,Sample tweet about AI and AI technology,2025-09-17 03:49:17.434570,0,[],0,[],0,[],0,[],0,[],0,[],0,[],0,0.0,,,,,,,
+1,Sample tweet about artificial intelligence and AI technology,2025-09-17 03:49:17.434639,0,[],0,[],0,[],0,[],0,[],0,[],0,[],0,0.0,,,,,,,
+2,Reddit post discussing AI and artificial intelligence,2025-09-17 03:49:17.434693,0,[],0,[],0,[],0,[],0,[],0,[],0,[],0,0.0,,,,,,,
+3,Reddit post discussing artificial intelligence and artificial intelligence,2025-09-17 03:49:17.434746,0,[],0,[],0,[],0,[],0,[],0,[],0,[],0,0.0,,,,,,,
+4,This is a news article discussing the implications of AI in artificial intelligence...,2025-09-17 03:49:17.434815,0,[],0,[],0,[],0,[],0,[],0,[],0,[],0,0.0,,,,,,,
+5,This is a news article discussing the implications of artificial intelligence in artificial intellig...,2025-09-17 03:49:17.434891,0,[],0,[],0,[],0,[],0,[],0,[],0,[],0,0.0,,,,,,,
+6,AI is amazing technology that will revolutionize healthcare and help doctors save more lives,2025-09-17 03:49:17.434966,0,[],0,[],0,[],0,[],1,[],0,[],0,[],1,0.07142857142857142,positive,,,,,,
+7,I'm really worried about AI taking away jobs from hardworking people like my family,2025-09-17 03:49:17.435038,0,[],0,[],0,[],1,[],0,[],0,[],0,[],1,0.07142857142857142,,neutral,,,,,
+8,Machine learning algorithms are powerful tools for analyzing complex patterns in data,2025-09-17 03:49:17.435115,1,[],1,[],0,[],0,[],0,[],0,[],0,[],2,0.16666666666666666,,,neutral,neutral,,,
+9,The AI overlords will eventually control humanity unless we create proper regulations now,2025-09-17 03:49:17.435193,0,[],0,[],3,['overlords'],1,[],0,[],0,[],0,[],4,0.3076923076923077,,neutral,,,neutral,,
+10,Humans and AI should work together as partners to solve climate change and global problems,2025-09-17 03:49:17.435271,0,[],0,[],0,[],1,[],0,[],0,[],0,[],1,0.06666666666666667,,neutral,,,,,
+11,AI systems are evolving rapidly in this digital ecosystem of technological innovation,2025-09-17 03:49:17.435342,0,[],0,[],0,[],0,[],1,[],0,[],0,[],1,0.08333333333333333,neutral,,,,,,
+12,We must defend against the AI invasion that threatens traditional industries and values,2025-09-17 03:49:17.435429,0,[],0,[],0,[],0,[],0,[],4,['invasion'],0,[],4,0.3076923076923077,,,,,,neutral,
+13,Artificial intelligence is like a brilliant brain that processes information faster than humans,2025-09-17 03:49:17.435508,1,[],0,[],0,[],0,[],1,[],0,[],0,[],2,0.15384615384615385,neutral,,neutral,,,,
+14,AI tools help doctors diagnose diseases more accurately and provide better patient care,2025-09-17 03:49:17.435580,0,[],1,[],0,[],0,[],0,[],0,[],0,[],1,0.07692307692307693,,,,neutral,,,
+15,The mysterious black box of AI decision-making raises serious concerns about transparency,2025-09-17 03:49:17.435653,0,[],0,[],0,[],0,[],0,[],0,[],1,[],1,0.08333333333333333,,,,,,,neutral

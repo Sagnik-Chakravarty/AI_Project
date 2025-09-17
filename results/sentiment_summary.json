@@ -1,0 +1,13 @@
+{
+  "total_texts": 16,
+  "average_compound": 0.0,
+  "sentiment_distribution": {
+    "neutral": 16
+  },
+  "most_positive": "Sample tweet about AI and AI technology",
+  "most_negative": "Sample tweet about AI and AI technology",
+  "ai_keyword_stats": {
+    "avg_positive_keywords": 0.0,
+    "avg_negative_keywords": 0.0
+  }
+}

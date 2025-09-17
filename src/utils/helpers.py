@@ -5,6 +5,7 @@ Utility functions for the AI Sentiment Analysis project
 import os
 import json
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from typing import Dict, List, Optional
@@ -38,10 +39,16 @@ def save_results(data: Dict, filename: str, output_dir: str = "results"):
     ensure_directory(output_dir)
     filepath = os.path.join(output_dir, filename)
     
-    # Convert any datetime objects to strings for JSON serialization
+    # Convert any datetime objects and numpy types to JSON-serializable formats
     def convert_datetime(obj):
         if isinstance(obj, datetime):
             return obj.isoformat()
+        elif isinstance(obj, (np.integer, np.int64)):
+            return int(obj)
+        elif isinstance(obj, (np.floating, np.float64)):
+            return float(obj)
+        elif isinstance(obj, np.ndarray):
+            return obj.tolist()
         elif isinstance(obj, dict):
             return {k: convert_datetime(v) for k, v in obj.items()}
         elif isinstance(obj, list):
