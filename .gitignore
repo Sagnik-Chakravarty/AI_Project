@@ -36,6 +36,8 @@ ENV/
 
 # Data files
 data/*.csv
+!data/survey_responses.csv
+!data/*sample*
 data/*.json
 data/*.xlsx
 data/*.sqlite
