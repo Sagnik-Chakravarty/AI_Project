@@ -1,0 +1,56 @@
+---
+title: "Reddit data collection"
+format: pdf
+editor: visual
+---
+
+```{r}
+install.packages("RedditExtractoR")
+```
+
+# Finding the subreddits
+
+```{r}
+library(RedditExtractoR)
+subreddits <- find_subreddits("Artificial Intelligence")
+print(subreddits)
+```
+
+```{r}
+library(dplyr)
+subreddits <- subreddits %>% 
+    arrange(desc(subscribers)) 
+```
+
+```{r}
+library(stringr)
+
+keywords <- c("AI", "artificial intelligence", "politics", 
+              "chat gpt", "anthropic", "gemini", "claude", "llama",
+              "Art")
+
+# Create a single regex pattern using |
+pattern <- paste(keywords, collapse = "|")
+
+filtered_subreddits <- subreddits %>%
+  arrange(desc(subscirbers)) %>%
+  filter(str_detect(tolower(description), pattern)) %>%
+```
+
+```{r}
+library(ggplot2)
+
+ggplot(head(filtered_subreddits, 30), aes(x = reorder(subreddit, subscribers), y = subscribers)) +
+  geom_col(fill = "steelblue") +
+  coord_flip() +  # Flip for readability
+  labs(title = "Top 30 AI-Related Subreddits by Subscribers",
+       x = "Subreddit",
+       y = "Number of Subscribers") +
+  theme_minimal()
+
+```
+
+```{r}
+library(readr)
+write.csv(filtered_subreddits, 'Data Collection/Internet/Data/Reddit/AIRelatedSubreddits.csv')
+```
