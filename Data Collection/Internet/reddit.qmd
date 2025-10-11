@@ -54,3 +54,11 @@ ggplot(head(filtered_subreddits, 30), aes(x = reorder(subreddit, subscribers), y
 library(readr)
 write.csv(filtered_subreddits, 'Data Collection/Internet/Data/Reddit/AIRelatedSubreddits.csv')
 ```
+
+# Subreddit Comment
+
+```{r}
+ df <- find_thread_urls(keywords = "AI", 
+                        subreddit = 'ArtificialInteligence',
+                        period = 'all')
+```
