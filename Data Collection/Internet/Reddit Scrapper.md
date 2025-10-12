@@ -1,0 +1,43 @@
+# 1. Getting Key Sub Reddits To Search
+
+- Used the RedditExtrator package in R to get the subreddits with the most subscribers count related to the keyword "AI" and "Artificial Intelligence." Also used websites to get fewer more subreddits related to particular topics and jobs which are vulnerable to AI disruption and which are not vulnerable to AI disruption. according to the research paper: [Microsoft Research Paper](https://arxiv.org/pdf/2507.07935) and the website i used was: [Subreddit FInder](https://nichetraffickit.com/tools/reddit/subreddit-finder)
+- The subreddits extracted are as follows:
+    - politics
+    - artificial
+    - artificialinteligence
+    - defendingAIart
+    - cogsci
+    - technology
+    - generativeAI
+    - transhumanism
+    - uncannyvalley
+    - antiAI
+    - automation
+    - agi
+    - aiArt
+    - chatgpt
+    - translation
+    - AskHistorians
+    - news
+    - geopolitics
+    - screenwriting
+    - writing
+    - TalesFromYourServer
+    - nursing
+    - HomeImprovement
+  
+  # 2. Getting the Keywords to Search for in each of the subreddits
+  - For this I have used the praw package in python, I used the keywords "AI" and "Artificial Intelligence" and found the top post in r/Politics and r/artificialInteligence and then used topic modieling for bigrams and trigrams to get the following keywords also some keywords were fixed which we discussed were going to be important:
+    - AI
+    - Deep Fake
+    - Artificial Intelligence
+    - Chat GPT
+    - Open AI
+    - LLAMA
+    - Claude
+    - Anthropic
+    - Sora
+    - Sam Altman
+    - Presidential Election
+    - language model
+    - Machine Learning
