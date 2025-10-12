@@ -27,7 +27,7 @@
     - HomeImprovement
   
   # 2. Getting the Keywords to Search for in each of the subreddits
-  - For this I have used the praw package in python, I used the keywords "AI" and "Artificial Intelligence" and found the top post in r/Politics and r/artificialInteligence and then used topic modieling for bigrams and trigrams to get the following keywords also some keywords were fixed which we discussed were going to be important:
+- For this I have used the praw package in python, I used the keywords "AI" and "Artificial Intelligence" and found the top post in r/Politics and r/artificialInteligence and then used topic modieling for bigrams and trigrams to get the following keywords also some keywords were fixed which we discussed were going to be important:
     - AI
     - Deep Fake
     - Artificial Intelligence
